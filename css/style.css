@@ -1,0 +1,2209 @@
+#banner-728x90,
+#banner-336x280,
+#banner-160x600,
+#banner-120x600,
+#banner-300x250,
+#banner-320x50,
+#banner-240x400,
+#banner-250x250,
+#banner-200x200,
+#banner-468x60{
+    margin: 0;
+    overflow: hidden;
+}
+
+
+h1, h2, h3, h4, h5{
+    color: #f8f5f2;
+    z-index: 2;
+    position: absolute;
+}
+
+h1{
+    font-family: 'Italianno', cursive;
+}
+
+h2, h5{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #D4B9A0;
+    text-shadow: 1px 1px 2px #3d2b1c;   
+}
+
+h4{
+    font-family: 'Oswald', sans-serif; 
+}
+
+h3, h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    position: absolute;
+}
+
+h6{
+    z-index: 2;
+}
+
+span{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    color: #f8f5f2;
+    border-radius: 25px;
+    border: 2px solid #f8f5f2;
+    font-weight: bold;
+    letter-spacing: .8px;
+    z-index: 3;
+    
+    padding: 1px 15px;
+    line-height: 30px;
+    font-size: 14px;
+    position: absolute;
+}
+
+
+#bg{
+    position: absolute;
+    z-index: 1;
+} 
+
+#ring1, #ring2{
+    z-index: 0;
+    position: absolute;
+}
+
+
+h1, h2, h3, h4, h5, span, h6{
+    opacity: 0;
+}
+
+
+/**********************
+*****banner-728x90****
+***********************/
+
+#banner-728x90{
+    height: 90px;
+    width: 728px;
+}
+
+
+#banner-728x90 #bg{
+    bottom: 0;
+    right: 0;
+
+    animation: 3s bg-2 ease 0s forwards;
+    -webkit-animation: 3s bg-2 ease 0s forwards;
+    -moz-animation: 3s bg-2 ease 0s forwards;
+    -o-animation: 3s bg-2 ease 0s forwards;
+}
+
+
+#banner-728x90 #ring1{
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+    animation: 3s ring-left ease 0s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s ring-left ease 0s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s ring-left ease 0s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s ring-left ease 0s forwards, 3s fade-in linear 10s forwards;
+}
+
+#banner-728x90 #ring2{
+    top: 0;
+    left: 0;
+    
+    animation: 3s ring-left ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+    -webkit-animation: 3s ring-left ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+    -moz-animation: 3s ring-left ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+    -o-animation: 3s ring-left ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+}
+
+
+#banner-728x90 h1{
+    top: 8px;
+    left: 310px;
+    font-size: 42px;
+    
+    animation: 3s h1-728 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h1-728 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h1-728 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h1-728 ease 2s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h1-728 {
+    from {top: -8px; opacity: 0;}
+    to {top: 8px; opacity: 1;}
+}
+@-webkit-keyframes h1-728 {
+    from {top: -8px; opacity: 0;}
+    to {top: 8px; opacity: 1;}
+}
+@-moz-keyframes h1-728 {
+    from {top: -8px; opacity: 0;}
+    to {top: 8px; opacity: 1;}
+}
+@-o-keyframes h1-728 {
+    from {top: -8px; opacity: 0;}
+    to {top: 8px; opacity: 1;}
+}
+
+
+
+#banner-728x90 h2{
+    top: 39px;
+    left: 230px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    
+    animation: 3s h2-728 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h2-728 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h2-728 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h2-728 ease 4s forwards, 3s fade-in linear 10s forwards;
+}
+
+#banner-728x90 h3{
+    bottom: 6px;
+    left: 365px;
+    font-size: 16px;
+    
+    animation: 3s h3-728 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h3-728 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h3-728 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h3-728 ease 7s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h3-728 {
+    from {bottom: -6px; opacity: 0;}
+    to {bottom: 6px; opacity: 1;}
+}
+@-webkit-keyframes h3-728 {
+    from {bottom: -6px; opacity: 0;}
+    to {bottom: 6px; opacity: 1;}
+}
+@-moz-keyframes h3-728{
+    from {bottom: -6px; opacity: 0;}
+    to {bottom: 6px; opacity: 1;}
+}
+@-o-keyframes h3-728 {
+    from {bottom: -6px; opacity: 0;}
+    to {bottom: 6px; opacity: 1;}
+}
+
+#banner-728x90 h4{
+    top: 15px;
+    left: 225px;
+    font-size: 21px;
+    line-height: 28px;
+    
+    animation: 3s h4-728 ease 12s forwards;
+    -webkit-animation: 3s h4-728 ease 12s forwards;
+    -moz-animation: 3s h4-728 ease 12s forwards;
+    -o-animation: 3s h4-728 ease 12s forwards; 
+}
+
+@keyframes h4-728 {
+    from {top: -15px; opacity: 0;}
+    to {top: 15px; opacity: 1;}
+}
+@-webkit-keyframes h4-728 {
+    from {top: -15px; opacity: 0;}
+    to {top: 15px; opacity: 1;}
+}
+@-moz-keyframes h4-728{
+    from {top: -15px; opacity: 0;}
+    to {top: 15px; opacity: 1;}
+}
+@-o-keyframes h4-728 {
+    from {top: -15px; opacity: 0;}
+    to {top: 15px; opacity: 1;}
+}
+
+#banner-728x90 h5{
+    top: 50px;
+    left: 255px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+
+    animation: 3s h5-728 ease 14s forwards;
+    -webkit-animation: 3s h5-728 ease 14s forwards;
+    -moz-animation: 3s h5-728 ease 14s forwards;
+    -o-animation: 3s h5-728 ease 14s forwards; 
+}
+
+@keyframes h5-728 {
+    from {left: -255px; opacity: 0;}
+    to {left: 255px; opacity: 1;}
+}
+@-webkit-keyframes h5-728 {
+    from {left: -255px; opacity: 0;}
+    to {left: 255px; opacity: 1;}
+}
+@-moz-keyframes h5-728{
+    from {left: -255px; opacity: 0;}
+    to {left: 255px; opacity: 1;}
+}
+@-o-keyframes h5-728 {
+    from {left: -255px; opacity: 0;}
+    to {left: 255px; opacity: 1;}
+}
+
+#banner-728x90 span{
+    bottom: 35px;
+    right: 17px;
+    padding: 2px 25px;
+
+    animation: 3s span-728 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -webkit-animation: 3s span-728 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -moz-animation: 3s span-728 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -o-animation: 3s span-728 ease 16s forwards, 4s scale2 linear 10s infinite; 
+}
+
+@keyframes span-728 {
+    from {right: -17px; opacity: 0;}
+    to {right: 17px; opacity: 1;}
+}
+@-webkit-keyframes span-728 {
+    from {right: -17px; opacity: 0;}
+    to {right: 17px; opacity: 1;}
+}
+@-moz-keyframes span-728{
+    from {right: -17px; opacity: 0;}
+    to {right: 17px; opacity: 1;}
+}
+@-o-keyframes span-728 {
+    from {right: -17px; opacity: 0;}
+    to {right: 17px; opacity: 1;}
+}
+
+#banner-728x90 h6{
+    bottom: 6px;
+    right: 26px;
+    color: #D4B9A0;
+    font-size: 12px;
+}
+
+
+
+
+
+/**********************
+*****banner-336x280****
+***********************/
+
+#banner-336x280{
+    height: 280px;
+    width: 336px;
+    margin-right: 40px;  
+}
+
+#banner-336x280 #bg{
+    bottom: 0;
+    left: 0;
+}
+
+
+#banner-336x280 #ring1{
+    top: 0;
+    right: 0;
+}
+
+#banner-336x280 #ring2{
+    top: 0;
+    right: 0;
+}
+
+
+#banner-336x280 h1{
+    top: 28px;
+    left: 10px;
+    font-size: 32px;
+}
+
+
+#banner-336x280 h2{
+    top: 94px;
+    left: 18px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 27px;
+    
+    animation: 3s h2-left-18 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h2-left-18 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h2-left-18 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h2-left-18 ease 4s forwards, 3s fade-in linear 10s forwards;
+}
+
+#banner-336x280 h3{
+    bottom: 35px;
+    left: 29px;
+    font-size: 16px;
+    
+    animation: 3s h3-336 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h3-336 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h3-336 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h3-336 ease 7s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h3-336 {
+    from {left: -29px; opacity: 0;}
+    to {left: 29px; opacity: 1;}
+}
+@-webkit-keyframes h3-336 {
+    from {left: -29px; opacity: 0;}
+    to {left: 29px; opacity: 1;}
+}
+@-moz-keyframes h3-336{
+    from {left: -29px; opacity: 0;}
+    to {left: 29px; opacity: 1;}
+}
+@-o-keyframes h3-336 {
+    from {left: -29px; opacity: 0;}
+    to {left: 29px; opacity: 1;}
+}
+
+#banner-336x280 h4{
+    top: 28px;
+    left: 15px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#banner-336x280 h5{
+    top: 120px;
+    left: 23px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+
+    animation: 3s h5-336 ease 14s forwards;
+    -webkit-animation: 3s h5-336 ease 14s forwards;
+    -moz-animation: 3s h5-336 ease 14s forwards;
+    -o-animation: 3s h5-336 ease 14s forwards; 
+}
+
+@keyframes h5-336 {
+    from {left: -23px; opacity: 0;}
+    to {left: 23px; opacity: 1;}
+}
+@-webkit-keyframes h5-336 {
+    from {left: -23px; opacity: 0;}
+    to {left: 23px; opacity: 1;}
+}
+@-moz-keyframes h5-336{
+    from {left: -23px; opacity: 0;}
+    to {left: 23px; opacity: 1;}
+}
+@-o-keyframes h5-336 {
+    from {left: -23px; opacity: 0;}
+    to {left: 23px; opacity: 1;}
+}
+
+#banner-336x280 span{
+    bottom: 35px;
+    left: 17px;
+    padding: 2px 25px;
+
+    animation: 3s span-336 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -webkit-animation: 3s span-336 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -moz-animation: 3s span-336 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -o-animation: 3s span-336 ease 16s forwards, 4s scale2 linear 10s infinite; 
+}
+
+@keyframes span-336 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+@-webkit-keyframes span-336 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+@-moz-keyframes span-336{
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+@-o-keyframes span-336 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+
+#banner-336x280 h6{
+    bottom: 6px;
+    left: 26px;
+    color: #D4B9A0;
+    font-size: 12px;
+}
+
+/**********************
+*****banner-300x250****
+***********************/
+
+#banner-300x250{
+    height: 250px;
+    width: 300px;
+}
+
+
+
+#banner-300x250 #bg{
+    top: 0;
+    left: 0; 
+}
+
+
+#banner-300x250 #ring1{
+    top: 0;
+    right: 0;    
+}
+
+#banner-300x250 #ring2{
+    top: 0;
+    right: 0;
+}
+
+#banner-300x250 h1{
+    top: 28px;
+    left: 10px;
+    font-size: 28px;
+}
+
+
+#banner-300x250 h2{
+    top: 75px;
+    left: 18px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    
+    animation: 3s h2-left-18 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h2-left-18 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h2-left-18 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h2-left-18 ease 4s forwards, 3s fade-in linear 10s forwards;
+}
+
+#banner-300x250 h3{
+    bottom: 28px;
+    left: 29px;
+    font-size: 14px;
+
+    animation: 3s h3-336 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h3-336 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h3-336 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h3-336 ease 7s forwards, 3s fade-in linear 10s forwards;
+}
+
+
+#banner-300x250 h4{
+    top: 28px;
+    left: 15px;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+#banner-300x250 h5{
+    top: 107px;
+    left: 23px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+
+    animation: 3s h5-300 ease 14s forwards;
+    -webkit-animation: 3s h5-300 ease 14s forwards;
+    -moz-animation: 3s h5-300 ease 14s forwards;
+    -o-animation: 3s h5-300 ease 14s forwards; 
+}
+
+@keyframes h5-300 {
+    from {left: -23px; opacity: 0;}
+    to {left: 23px; opacity: 1;}
+}
+@-webkit-keyframes h5-300 {
+    from {left: -23px; opacity: 0;}
+    to {left: 23px; opacity: 1;}
+}
+@-moz-keyframes h5-300{
+    from {left: -23px; opacity: 0;}
+    to {left: 23px; opacity: 1;}
+}
+@-o-keyframes h5-300 {
+    from {left: -23px; opacity: 0;}
+    to {left: 23px; opacity: 1;}
+}
+
+#banner-300x250 span{
+    bottom: 35px;
+    left: 17px;
+    padding: 0 15px;
+
+
+    animation: 3s span-300 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -webkit-animation: 3s span-300 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -moz-animation: 3s span-300 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -o-animation: 3s span-300 ease 16s forwards, 4s scale2 linear 10s infinite; 
+}
+
+@keyframes span-300 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+@-webkit-keyframes span-300 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+@-moz-keyframes span-300{
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+@-o-keyframes span-300 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+
+
+#banner-300x250 h6{
+    bottom: 6px;
+    left: 17px;
+    color: #D4B9A0;
+    font-size: 12px;
+}
+
+
+/**********************
+*****banner-160x600****
+***********************/
+
+#banner-160x600{
+    height: 600px;
+    width: 160px;
+    margin-right: 40px;
+    margin-left: 40px;  
+}
+
+
+#banner-160x600 #bg{
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+#banner-160x600 #ring1{
+    top: 0;
+    right: 0;
+}
+
+#banner-160x600 #ring2{
+    top: 0;
+    right: 0;
+}
+
+
+#banner-160x600 h1{
+    top: 250px;
+    left: 17px;
+    font-size: 46px;
+    
+    animation: 3s h1-160 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h1-160 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h1-160 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h1-160 ease 2s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h1-160 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+@-webkit-keyframes h1-160 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+@-moz-keyframes h1-160 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+@-o-keyframes h1-160 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+
+
+#banner-160x600 h1:last-of-type{
+    top: 292px;
+}
+
+
+#banner-160x600 h2{
+    top: 376px;
+    left: 22px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+    
+    animation: 3s h2-160 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h2-160 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h2-160 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h2-160 ease 4s forwards, 3s fade-in linear 10s forwards;
+}
+
+#banner-160x600 h3{
+    bottom: 44px;
+    left: 18px;
+    font-size: 16px;
+    
+    animation: 3s h3-160 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h3-160 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h3-160 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h3-160 ease 7s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h3-160 {
+    from {left: -18px; opacity: 0;}
+    to {left: 18px; opacity: 1;}
+}
+@-webkit-keyframes h3-160 {
+    from {left: -18px; opacity: 0;}
+    to {left: 18px; opacity: 1;}
+}
+@-moz-keyframes h3-160{
+    from {left: -18px; opacity: 0;}
+    to {left: 18px; opacity: 1;}
+}
+@-o-keyframes h3-160 {
+    from {left: -18px; opacity: 0;}
+    to {left: 18px; opacity: 1;}
+}
+
+#banner-160x600 h4{
+    top: 235px;
+    left: 30px;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+
+    animation: 3s h4-160 ease 12s forwards;
+    -webkit-animation: 3s h4-160 ease 12s forwards;
+    -moz-animation: 3s h4-160 ease 12s forwards;
+    -o-animation: 3s h4-160 ease 12s forwards; 
+}
+
+@keyframes h4-160 {
+    from {left: -30px; opacity: 0;}
+    to {left: 30px; opacity: 1;}
+}
+@-webkit-keyframes h4-160 {
+    from {left: -30px; opacity: 0;}
+    to {left: 30px; opacity: 1;}
+}
+@-moz-keyframes h4-160{
+    from {left: -30px; opacity: 0;}
+    to {left: 30px; opacity: 1;}
+}
+@-o-keyframes h4-160 {
+    from {left: -30px; opacity: 0;}
+    to {left: 30px; opacity: 1;}
+}
+
+#banner-160x600 h5{
+    top: 380px;
+    left: 20px;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 28px;
+
+    animation: 3s h5-160 ease 14s forwards;
+    -webkit-animation: 3s h5-160 ease 14s forwards;
+    -moz-animation: 3s h5-160 ease 14s forwards;
+    -o-animation: 3s h5-160 ease 14s forwards; 
+}
+
+@keyframes h5-160 {
+    from {left: -20px; opacity: 0;}
+    to {left: 20px; opacity: 1;}
+}
+@-webkit-keyframes h5-160 {
+    from {left: -20px; opacity: 0;}
+    to {left: 20px; opacity: 1;}
+}
+@-moz-keyframes h5-160{
+    from {left: -20px; opacity: 0;}
+    to {left: 20px; opacity: 1;}
+}
+@-o-keyframes h5-160 {
+    from {left: -20px; opacity: 0;}
+    to {left: 20px; opacity: 1;}
+}
+
+#banner-160x600 span{
+    bottom: 55px;
+    left: 12px;
+    padding: 0 17px;
+    font-size: 14px;
+
+    animation: 3s span-160 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -webkit-animation: 3s span-160 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -moz-animation: 3s span-160 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -o-animation: 3s span-160 ease 16s forwards, 4s scale2 linear 10s infinite; 
+}
+
+@keyframes span-160 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+@-webkit-keyframes span-160 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+@-moz-keyframes span-160{
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+@-o-keyframes span-160 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+
+#banner-160x600 h6{
+    bottom: 6px;
+    left: 10px;
+    color: #D4B9A0;
+    font-size: 12px;
+}
+
+
+/**********************
+*****banner-120x600****
+***********************/
+
+#banner-120x600{
+    height: 600px;
+    width: 120px;
+    margin-left: 40px;
+}
+
+#banner-120x600 #bg{
+    bottom: 0;
+    left: 0;
+}
+
+
+#banner-120x600 #ring1{
+    top: 0;
+    right: 0;
+}
+
+#banner-120x600 #ring2{
+    top: 0;
+    right: 0;
+}
+
+#banner-120x600 h1{
+    top: 270px;
+    left: 12px;
+    font-size: 36px;
+
+    animation: 3s h1-120 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h1-120 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h1-120 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h1-120 ease 2s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h1-120 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+@-webkit-keyframes h1-120 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+@-moz-keyframes h1-120 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+@-o-keyframes h1-120 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+
+
+#banner-120x600 h1:last-of-type{
+    top: 305px;
+}
+
+
+#banner-120x600 h2{
+    top: 385px;
+    left: 12px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#banner-120x600 h3{
+    bottom: 44px;
+    left: 10px;
+    font-size: 13px;
+
+    animation: 3s h3-120 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h3-120 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h3-120 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h3-120 ease 7s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h3-120 {
+    from {left: -10px; opacity: 0;}
+    to {left: 10px; opacity: 1;}
+}
+@-webkit-keyframes h3-120 {
+    from {left: -10px; opacity: 0;}
+    to {left: 10px; opacity: 1;}
+}
+@-moz-keyframes h3-120{
+    from {left: -10px; opacity: 0;}
+    to {left: 10px; opacity: 1;}
+}
+@-o-keyframes h3-120 {
+    from {left: -10px; opacity: 0;}
+    to {left: 10px; opacity: 1;}
+}
+
+#banner-120x600 h4{
+    top: 275px;
+    left: 15px;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: center;
+}
+
+#banner-120x600 h5{
+    top: 395px;
+    left: 7px;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 28px;
+
+    animation: 3s h5-120 ease 14s forwards;
+    -webkit-animation: 3s h5-120 ease 14s forwards;
+    -moz-animation: 3s h5-120 ease 14s forwards;
+    -o-animation: 3s h5-120 ease 14s forwards; 
+}
+
+@keyframes h5-120 {
+    from {left: -7px; opacity: 0;}
+    to {left: 7px; opacity: 1;}
+}
+@-webkit-keyframes h5-120 {
+    from {left: -7px; opacity: 0;}
+    to {left: 7px; opacity: 1;}
+}
+@-moz-keyframes h5-120{
+    from {left: -7px; opacity: 0;}
+    to {left: 7px; opacity: 1;}
+}
+@-o-keyframes h5-120 {
+    from {left: -7px; opacity: 0;}
+    to {left: 7px; opacity: 1;}
+}
+
+#banner-120x600 span{
+    bottom: 55px;
+    left: 7px;
+    padding: 0 9px;
+    font-size: 12px;
+
+    animation: 3s span-120 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -webkit-animation: 3s span-120 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -moz-animation: 3s span-120 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -o-animation: 3s span-120 ease 16s forwards, 4s scale2 linear 10s infinite; 
+}
+
+@keyframes span-120 {
+    from {left: -7px; opacity: 0;}
+    to {left: 7px; opacity: 1;}
+}
+@-webkit-keyframes span-120 {
+    from {left: -7px; opacity: 0;}
+    to {left: 7px; opacity: 1;}
+}
+@-moz-keyframes span-120{
+    from {left: -7px; opacity: 0;}
+    to {left: 7px; opacity: 1;}
+}
+@-o-keyframes span-120 {
+    from {left: -7px; opacity: 0;}
+    to {left: 7px; opacity: 1;}
+}
+
+#banner-120x600 h6{
+    bottom: 6px;
+    left: 3px;
+    color: #D4B9A0;
+    font-size: 10px;
+}
+
+
+/**********************
+*****banner-468x60*****
+***********************/
+
+#banner-468x60{
+    height: 60px;
+    width: 468px;
+}
+
+#banner-468x60 #bg{
+    bottom: 0;
+    right: 0;
+    
+    animation: 3s bg-2 ease 0s forwards;
+    -webkit-animation: 3s bg-2 ease 0s forwards;
+    -moz-animation: 3s bg-2 ease 0s forwards;
+    -o-animation: 3s bg-2 ease 0s forwards;
+}
+
+
+#banner-468x60 #ring1{
+    top: 0;
+    left: 0;
+    
+    animation: 3s ring-left ease 0s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s ring-left ease 0s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s ring-left ease 0s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s ring-left ease 0s forwards, 3s fade-in linear 10s forwards;
+
+}
+
+#banner-468x60 #ring2{
+    top: 0;
+    left: 0;
+    
+    animation: 3s ring-left ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+    -webkit-animation: 3s ring-left ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+    -moz-animation: 3s ring-left ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+    -o-animation: 3s ring-left ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+}
+
+
+
+#banner-468x60 h1{
+    top: 7px;
+    left: 175px;
+    font-size: 36px;
+    
+    animation: 3s h1-468 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h1-468 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h1-468 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h1-468 ease 2s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h1-468 {
+    from {left: -175px; opacity: 0;}
+    to {left: 175px; opacity: 1;}
+}
+@-webkit-keyframes h1-468 {
+    from {left: -175px; opacity: 0;}
+    to {left: 175px; opacity: 1;}
+}
+@-moz-keyframes h1-468 {
+    from {left: -175px; opacity: 0;}
+    to {left: 175px; opacity: 1;}
+}
+@-o-keyframes h1-468 {
+    from {left: -175px; opacity: 0;}
+    to {left: 175px; opacity: 1;}
+}
+
+
+
+#banner-468x60 h3{
+    top: 36px;
+    left: 205px;
+    font-size: 16px;
+
+    animation: 3s h3-468 ease 5s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h3-468 ease 5s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h3-468 ease 5s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h3-468 ease 5s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h3-468 {
+    from {left: -205px; opacity: 0;}
+    to {left: 205px; opacity: 1;}
+}
+@-webkit-keyframes h3-468 {
+    from {left: -205px; opacity: 0;}
+    to {left: 205px; opacity: 1;}
+}
+@-moz-keyframes h3-468{
+    from {left: -205px; opacity: 0;}
+    to {left: 205px; opacity: 1;}
+}
+@-o-keyframes h3-468 {
+    from {left: -205px; opacity: 0;}
+    to {left: 205px; opacity: 1;}
+}
+
+#banner-468x60 h4{
+    top: 3px;
+    left: 153px;
+    font-size: 21px;
+    line-height: 28px;
+
+    animation: 3s h4-468 ease 12s forwards;
+    -webkit-animation: 3s h4-468 ease 12s forwards;
+    -moz-animation: 3s h4-468 ease 12s forwards;
+    -o-animation: 3s h4-468 ease 12s forwards; 
+}
+
+@keyframes h4-468 {
+    from {top: -3px; opacity: 0;}
+    to {top: 3px; opacity: 1;}
+}
+@-webkit-keyframes h4-468 {
+    from {top: -3px; opacity: 0;}
+    to {top: 3px; opacity: 1;}
+}
+@-moz-keyframes h4-468{
+    from {top: -3px; opacity: 0;}
+    to {top: 3px; opacity: 1;}
+}
+@-o-keyframes h4-468 {
+    from {top: -3px; opacity: 0;}
+    to {top: 3px; opacity: 1;}
+}
+
+#banner-468x60 h5{
+    top: 31px;
+    left: 171px;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+
+    animation: 3s h5-468 ease 14s forwards;
+    -webkit-animation: 3s h5-468 ease 14s forwards;
+    -moz-animation: 3s h5-468 ease 14s forwards;
+    -o-animation: 3s h5-468 ease 14s forwards; 
+}
+
+@keyframes h5-468 {
+    from {left: -171px; opacity: 0;}
+    to {left: 171px; opacity: 1;}
+}
+@-webkit-keyframes h5-468 {
+    from {left: -171px; opacity: 0;}
+    to {left: 255px; opacity: 1;}
+}
+@-moz-keyframes h5-468{
+    from {left: -171px; opacity: 0;}
+    to {left: 171px; opacity: 1;}
+}
+@-o-keyframes h5-468 {
+    from {left: -171px; opacity: 0;}
+    to {left: 171px; opacity: 1;}
+}
+
+#banner-468x60 span{
+    top: 5px;
+    right: 10px;
+    font-size: 13px;
+    padding: 0px 15px;
+
+    animation: 3s span-468 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -webkit-animation: 3s span-468 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -moz-animation: 3s span-468 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -o-animation: 3s span-468 ease 16s forwards, 4s scale2 linear 10s infinite; 
+}
+
+@keyframes span-468 {
+    from {right: -10px; opacity: 0;}
+    to {right: 10px; opacity: 1;}
+}
+@-webkit-keyframes span-468 {
+    from {right: -10px; opacity: 0;}
+    to {right: 10px; opacity: 1;}
+}
+@-moz-keyframes span-468{
+    from {right: -10px; opacity: 0;}
+    to {right: 10px; opacity: 1;}
+}
+@-o-keyframes span-468 {
+    from {right: -10px; opacity: 0;}
+    to {right: 10px; opacity: 1;}
+}
+
+#banner-468x60 h6{
+    bottom: 4px;
+    right: 10px;
+    color: #D4B9A0;
+    font-size: 11px;
+}
+
+/**********************
+*****banner-320x50*****
+***********************/
+
+#banner-320x50{
+    height: 50px;
+    width: 320px;
+}
+
+#banner-320x50 #bg{
+    bottom: 0;
+    right: 0;
+
+    animation: 3s bg-2 ease 0s forwards;
+    -webkit-animation: 3s bg-2 ease 0s forwards;
+    -moz-animation: 3s bg-2 ease 0s forwards;
+    -o-animation: 3s bg-2 ease 0s forwards;
+}
+
+
+
+#banner-320x50 #ring1{
+    top: 0;
+    left: 0;
+
+    animation: 3s ring-left ease 0s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s ring-left ease 0s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s ring-left ease 0s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s ring-left ease 0s forwards, 3s fade-in linear 10s forwards;
+
+}
+
+#banner-320x50 #ring2{
+    top: 0;
+    left: 0;
+    
+    animation: 3s ring-left ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+    -webkit-animation: 3s ring-left ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+    -moz-animation: 3s ring-left ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+    -o-animation: 3s ring-left ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+}
+
+#banner-320x50 h1{
+    top: 6px;
+    left: 120px;
+    font-size: 30px;
+    
+    animation: 3s h1-320 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h1-320 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h1-320 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h1-320 ease 2s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h1-320 {
+    from {left: -100px; opacity: 0;}
+    to {left: 120px; opacity: 1;}
+}
+@-webkit-keyframes h1-320 {
+    from {left: -100px; opacity: 0;}
+    to {left: 120px; opacity: 1;}
+}
+@-moz-keyframes h1-320 {
+    from {left: -100px; opacity: 0;}
+    to {left: 120px; opacity: 1;}
+}
+@-o-keyframes h1-320 {
+    from {left: -100px; opacity: 0;}
+    to {left: 120px; opacity: 1;}
+}
+
+
+
+#banner-320x50 h3{
+    top: 31px;
+    left: 150px;
+    font-size: 12px;
+
+    animation: 3s h3-320 ease 5s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h3-320 ease 5s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h3-320 ease 5s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h3-320 ease 5s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h3-320 {
+    from {left: -130px; opacity: 0;}
+    to {left: 150px; opacity: 1;}
+}
+@-webkit-keyframes h3-320 {
+    from {left: -130px; opacity: 0;}
+    to {left: 150px; opacity: 1;}
+}
+@-moz-keyframes h3-320{
+    from {left: -130px; opacity: 0;}
+    to {left: 150px; opacity: 1;}
+}
+@-o-keyframes h3-320 {
+    from {left: -130px; opacity: 0;}
+    to {left: 150px; opacity: 1;}
+}
+
+#banner-320x50 h4{
+    top: 6px;
+    left: 108px;
+    font-size: 16px;
+
+
+    animation: 3s h4-320 ease 12s forwards;
+    -webkit-animation: 3s h4-320 ease 12s forwards;
+    -moz-animation: 3s h4-320 ease 12s forwards;
+    -o-animation: 3s h4-320 ease 12s forwards; 
+}
+
+@keyframes h4-320 {
+    from {top: -6px; opacity: 0;}
+    to {top: 6px; opacity: 1;}
+}
+@-webkit-keyframes h4-320 {
+    from {top: -6px; opacity: 0;}
+    to {top: 6px; opacity: 1;}
+}
+@-moz-keyframes h4-320{
+    from {top: -6px; opacity: 0;}
+    to {top: 6px; opacity: 1;}
+}
+@-o-keyframes h4-320 {
+    from {top: -6px; opacity: 0;}
+    to {top: 6px; opacity: 1;}
+}
+
+#banner-320x50 h5{
+    top: 28px;
+    left: 118px;
+    font-size: 16px;
+    font-weight: 500;
+
+
+    animation: 3s h5-320 ease 14s forwards;
+    -webkit-animation: 3s h5-320 ease 14s forwards;
+    -moz-animation: 3s h5-320 ease 14s forwards;
+    -o-animation: 3s h5-320 ease 14s forwards; 
+}
+
+@keyframes h5-320 {
+    from {left: -118px; opacity: 0;}
+    to {left: 118px; opacity: 1;}
+}
+@-webkit-keyframes h5-320 {
+    from {left: -118px; opacity: 0;}
+    to {left: 118px; opacity: 1;}
+}
+@-moz-keyframes h5-320{
+    from {left: -118px; opacity: 0;}
+    to {left: 118px; opacity: 1;}
+}
+@-o-keyframes h5-320 {
+    from {left: -118px; opacity: 0;}
+    to {left: 118px; opacity: 1;}
+}
+
+#banner-320x50 span{
+    top: 8px;
+    right: 5px;
+    font-size: 11px;
+    padding: 0px 18px;
+
+    animation: 3s span-top ease 16s forwards, 4s scale2 linear 10s infinite;
+    -webkit-animation: 3s span-top ease 16s forwards, 4s scale2 linear 10s infinite;
+    -moz-animation: 3s span-top ease 16s forwards, 4s scale2 linear 10s infinite;
+    -o-animation: 3s span-top ease 16s forwards, 4s scale2 linear 10s infinite; 
+}
+
+@keyframes span-top {
+    from {top: -8px; opacity: 0;}
+    to {top: 8px; opacity: 1;}
+}
+@-webkit-keyframes span-top {
+    from {top: -8px; opacity: 0;}
+    to {top: 8px; opacity: 1;}
+}
+@-moz-keyframes span-top{
+    from {top: -8px; opacity: 0;}
+    to {top: 8px; opacity: 1;}
+}
+@-o-keyframes span-top {
+    from {top: -8px; opacity: 0;}
+    to {top: 8px; opacity: 1;}
+}
+
+
+
+
+/**********************
+*****banner-240x400****
+***********************/
+
+
+#banner-240x400{
+    height: 400px;
+    margin-right: 40px;
+    width: 240px;
+}
+
+#banner-240x400 #bg{
+    bottom: 0;
+    left: 0;
+}
+
+
+#banner-240x400 #ring1{
+    top: 0;
+    right: 0;
+}
+
+#banner-240x400 #ring2{
+    top: 0;
+    right: 0;
+}
+
+#banner-240x400 h1{
+    top: 185px;
+    left: 14px;
+    font-size: 38px;
+    
+    animation: 3s h1-240 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h1-240 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h1-240 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h1-240 ease 2s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h1-240 {
+    from {left: -500px; opacity: 0;}
+    to {left: 14px; opacity: 1;}
+}
+@-webkit-keyframes h1-240 {
+    from {left: -500px; opacity: 0;}
+    to {left: 14px; opacity: 1;}
+}
+@-moz-keyframes h1-240 {
+    from {left: -500px; opacity: 0;}
+    to {left: 14px; opacity: 1;}
+}
+@-o-keyframes h1-240 {
+    from {left: -500px; opacity: 0;}
+    to {left: 14px; opacity: 1;}
+}
+
+
+#banner-240x400 h2{
+    top: 235px;
+    left: 24px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    animation: 3s h2-240 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h2-240 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h2-240 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h2-240 ease 4s forwards, 3s fade-in linear 10s forwards;
+}
+
+#banner-240x400 h3{
+    bottom: 34px;
+    left: 50px;
+    font-size: 18px;
+
+    animation: 3s h3-240 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h3-240 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h3-240 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h3-240 ease 7s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h3-240 {
+    from {left: -50px; opacity: 0;}
+    to {left: 50px; opacity: 1;}
+}
+@-webkit-keyframes h3-240 {
+    from {left: -50px; opacity: 0;}
+    to {left: 50px; opacity: 1;}
+}
+@-moz-keyframes h3-240{
+    from {left: -50px; opacity: 0;}
+    to {left: 50px; opacity: 1;}
+}
+@-o-keyframes h3-240 {
+    from {left: -50px; opacity: 0;}
+    to {left: 50px; opacity: 1;}
+}
+
+#banner-240x400 h4{
+    top: 185px;
+    left: 0;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+
+    animation: 3s h4-240 ease 12s forwards;
+    -webkit-animation: 3s h4-240 ease 12s forwards;
+    -moz-animation: 3s h4-240 ease 12s forwards;
+    -o-animation: 3s h4-240 ease 12s forwards; 
+}
+
+@keyframes h4-240 {
+    from {left: -26px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+@-webkit-keyframes h4-240 {
+    from {left: -26px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+@-moz-keyframes h4-240{
+    from {left: -26px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+@-o-keyframes h4-240 {
+    from {left: -26px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+
+#banner-240x400 h5{
+    top: 270px;
+    left: 15px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+
+
+    animation: 3s h5-240 ease 14s forwards;
+    -webkit-animation: 3s h5-240 ease 14s forwards;
+    -moz-animation: 3s h5-240 ease 14s forwards;
+    -o-animation: 3s h5-240 ease 14s forwards; 
+}
+
+@keyframes h5-240 {
+    from {left: -15px; opacity: 0;}
+    to {left: 15px; opacity: 1;}
+}
+@-webkit-keyframes h5-240 {
+    from {left: -15px; opacity: 0;}
+    to {left: 15px; opacity: 1;}
+}
+@-moz-keyframes h5-240{
+    from {left: -15px; opacity: 0;}
+    to {left: 15px; opacity: 1;}
+}
+@-o-keyframes h5-240 {
+    from {left: -255px; opacity: 0;}
+    to {left: 15px; opacity: 1;}
+}
+
+
+#banner-240x400 span{
+    bottom: 35px;
+    left: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+
+    animation: 3s span-240 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -webkit-animation: 3s span-240 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -moz-animation: 3s span-240 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -o-animation: 3s span-240 ease 16s forwards, 4s scale2 linear 10s infinite; 
+}
+
+@keyframes span-240 {
+    from {left: -50px; opacity: 0;}
+    to {left: 50px; opacity: 1;}
+}
+@-webkit-keyframes span-240 {
+    from {left: -50px; opacity: 0;}
+    to {left: 50px; opacity: 1;}
+}
+@-moz-keyframes span-240{
+    from {left: -50px; opacity: 0;}
+    to {left: 50px; opacity: 1;}
+}
+@-o-keyframes span-240 {
+    from {left: -50px; opacity: 0;}
+    to {left: 50px; opacity: 1;}
+}
+
+#banner-240x400 h6{
+    bottom: 6px;
+    left: 50px;
+    color: #D4B9A0;
+    font-size: 12px;
+}
+
+
+
+/**********************
+*****banner-250x250****
+***********************/
+
+#banner-250x250{
+    height: 250px;
+    width: 250px;
+    margin-right: 40px;
+}
+
+
+#banner-250x250 #bg{
+    bottom: 0;
+    left: 0;
+}
+
+
+#banner-250x250 #ring1{
+    top: 0;
+    right: 0;
+}
+
+#banner-250x250 #ring2{
+    top: 0;
+    right: 0;
+}
+
+
+#banner-250x250 h1{
+    top: 20px;
+    left: 17px;
+    font-size: 36px;
+    line-height: 28px;
+    
+    animation: 3s h1-250 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h1-250 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h1-2500 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h1-250 ease 2s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h1-250 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+@-webkit-keyframes h1-250 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+@-moz-keyframes h1-250 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+@-o-keyframes h1-250 {
+    from {left: -17px; opacity: 0;}
+    to {left: 17px; opacity: 1;}
+}
+
+
+#banner-250x250 h1:last-of-type{
+    top: 50px;
+    left: 22px;
+}
+
+#banner-250x250 h2{
+    top: 97px;
+    left: 12px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+#banner-250x250 h3{
+    bottom: 24px;
+    left: 23px;
+    font-size: 14px;
+
+    animation: 3s h3-250 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h3-250 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h3-250 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h3-250 ease 7s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h3-250 {
+    from {left: -23px; opacity: 0;}
+    to {left: 23px; opacity: 1;}
+}
+@-webkit-keyframes h3-250 {
+    from {left: -23px; opacity: 0;}
+    to {left: 23px; opacity: 1;}
+}
+@-moz-keyframes h3-250{
+    from {left: -23px; opacity: 0;}
+    to {left: 23px; opacity: 1;}
+}
+@-o-keyframes h3-250 {
+    from {left: -23px; opacity: 0;}
+    to {left: 23px; opacity: 1;}
+}
+
+#banner-250x250 h4{
+    top: 28px;
+    left: 12px;
+    font-size: 17px;
+    line-height: 24px;
+    
+    animation: 3s h4-250 ease 12s forwards;
+    -webkit-animation: 3s h4-250 ease 12s forwards;
+    -moz-animation: 3s h4-250 ease 12s forwards;
+    -o-animation: 3s h4-250 ease 12s forwards; 
+}
+
+@keyframes h4-250 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+@-webkit-keyframes h4-250 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+@-moz-keyframes h4-250{
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+@-o-keyframes h4-250 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+
+
+#banner-250x250 h5{
+    top: 107px;
+    left: 12px;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 26px;
+    
+    animation: 3s span-160 ease 16s forwards;
+    -webkit-animation: 3s span-160 ease 16s forwards;
+    -moz-animation: 3s span-160 ease 16s forwards;
+    -o-animation: 3s span-160 ease 16s forwards;
+}
+
+#banner-250x250 span{
+    bottom: 35px;
+    left: 12px;
+    padding: 0 10px;
+
+    animation: 3s span-160 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -webkit-animation: 3s span-160 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -moz-animation: 3s span-160 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -o-animation: 3s span-160 ease 16s forwards, 4s scale2 linear 10s infinite;
+}
+
+#banner-250x250 h6{
+    bottom: 6px;
+    left: 12px;
+    color: #D4B9A0;
+    font-size: 12px;
+}
+
+/**********************
+*****banner-200x200****
+***********************/
+
+
+#banner-200x200{
+    height: 200px;
+    width: 200px;
+}
+
+
+#banner-200x200 #bg{
+    bottom: 0;
+    left: 0;
+}
+
+#banner-200x200 #ring1{
+    top: 0;
+    right: 0;
+}
+
+#banner-200x200 #ring2{
+    top: 0;
+    right: 0;
+}
+
+
+#banner-200x200 h1{
+    top: 20px;
+    left: 10px;
+    font-size: 28px;
+}
+
+
+#banner-200x200 h1:last-of-type{
+    top: 48px;
+    left: 18px;
+}
+
+
+#banner-200x200 h2{
+    top: 83px;
+    left: 12px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#banner-200x200 h3{
+    bottom: 14px;
+    left: 10px;
+    font-size: 13px;
+
+    animation: 3s h3-200 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h3-200 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h3-200 ease 7s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h3-200 ease 7s forwards, 3s fade-in linear 10s forwards;
+}
+
+@keyframes h3-200 {
+    from {left: -10px; opacity: 0;}
+    to {left: 10px; opacity: 1;}
+}
+@-webkit-keyframes h3-200 {
+    from {left: -10px; opacity: 0;}
+    to {left: 10px; opacity: 1;}
+}
+@-moz-keyframes h3-200{
+    from {left: -10px; opacity: 0;}
+    to {left: 10px; opacity: 1;}
+}
+@-o-keyframes h3-200 {
+    from {left: -10px; opacity: 0;}
+    to {left: 10px; opacity: 1;}
+}
+
+#banner-200x200 h4{
+    top: 28px;
+    left: 12px;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+
+    animation: 3s h4-250 ease 12s forwards;
+    -webkit-animation: 3s h4-250 ease 12s forwards;
+    -moz-animation: 3s h4-250 ease 12s forwards;
+    -o-animation: 3s h4-250 ease 12s forwards; 
+}
+
+
+#banner-200x200 h5{
+    top: 85px;
+    left: 12px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    
+    animation: 3s span-160 ease 16s forwards;
+    -webkit-animation: 3s span-160 ease 16s forwards;
+    -moz-animation: 3s span-160 ease 16s forwards;
+    -o-animation: 3s span-160 ease 16s forwards;
+}
+
+#banner-200x200 span{
+    bottom: 28px;
+    left: 7px;
+    padding: 0 8px;
+    font-size: 12px;
+    
+    animation: 3s span-120 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -webkit-animation: 3s span-120 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -moz-animation: 3s span-120 ease 16s forwards, 4s scale2 linear 10s infinite;
+    -o-animation: 3s span-120 ease 16s forwards, 4s scale2 linear 10s infinite;
+}
+
+#banner-200x200 h6{
+    bottom: 6px;
+    left: 9px;
+    color: #D4B9A0;
+    font-size: 10px;
+}
+
+
+/**********************
+*****animáció****
+***********************/
+
+
+#bg{
+    animation: 3s bg ease 0s forwards;
+    -webkit-animation: 3s bg ease 0s forwards;
+    -moz-animation: 3s bg ease 0s forwards;
+    -o-animation: 3s bg ease 0s forwards;
+}
+
+@keyframes bg {
+    from {left: -500px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+@-webkit-keyframes bg {
+    from {left: -500px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+@-moz-keyframes bg {
+    from {left: -500px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+@-o-keyframes bg {
+    from {left: -500px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+
+
+
+@keyframes bg-2 {
+    from {right: -728px; opacity: 0;}
+    to {right: 0px; opacity: 1;}
+}
+@-webkit-keyframes bg-2 {
+    from {right: -728px; opacity: 0;}
+    to {right: 0px; opacity: 1;}
+}
+@-moz-keyframes bg-2 {
+    from {right: -728px; opacity: 0;}
+    to {right: 0px; opacity: 1;}
+}
+@-o-keyframes bg-2 {
+    from {right: -728px; opacity: 0;}
+    to {right: 0px; opacity: 1;}
+}
+
+#ring1{
+    
+    animation: 3s ring-right ease 0s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s ring-right ease 0s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s ring-right ease 0s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s ring-right ease 0s forwards, 3s fade-in linear 10s forwards;
+    
+    
+}
+
+#ring2{
+    opacity: 0;
+    animation: 3s ring-right ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+    -webkit-animation: 3s ring-right ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+    -moz-animation: 3s ring-right ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+    -o-animation: 3s ring-right ease 0s forwards, 10s fade-out linear 0s forwards, 7s scale ease 10s forwards;
+}
+
+
+
+
+
+@-webkit-keyframes scale {
+    0%{ -webkit-transform:  scale(1.5);}
+    100%{ -webkit-transform:  scale(1);}
+
+}
+@-o-keyframes scale {
+    0%{ -webkit-transform:  scale(1.5);}
+    100%{ -webkit-transform:  scale(1);}
+}
+@-moz-keyframes scale {
+    0%{ -webkit-transform:  scale(1.5);}
+    100%{ -webkit-transform:  scale(1);}
+}
+@keyframes scale {
+    0%{ -webkit-transform:  scale(1.5);}
+    100%{ -webkit-transform:  scale(1);}
+}
+
+
+@keyframes ring-right {
+    from {right: -500px; opacity: 0;}
+    to {right: 0px; opacity: 1;}
+}
+@-webkit-keyframes ring-right {
+    from {right: -500px; opacity: 0;}
+    to {right: 0px; opacity: 1;}
+}
+@-moz-keyframes ring-right {
+    from {right: -500px; opacity: 0;}
+    to {right: 0px; opacity: 1;}
+}
+@-o-keyframes ring-right {
+    from {right: -500px; opacity: 0;}
+    to {right: 0px; opacity: 1;}
+}
+
+
+@keyframes ring-left {
+    from {left: -500px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+@-webkit-keyframes ring-left {
+    from {left: -500px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+@-moz-keyframes ring-left {
+    from {left: -500px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+@-o-keyframes ring-left {
+    from {left: -500px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+
+
+
+    
+@keyframes fade-in {
+    0% { opacity:1; }
+    45% { opacity:1;}
+    55% { opacity:0;}
+    100% { opacity:0;}
+}
+
+@-moz-keyframes fade-in {
+    0% { opacity:1; }
+    45% { opacity:1;}
+    55% { opacity:0;}
+    100% { opacity:0;}
+}
+
+@-webkit-keyframes fade-in {
+    0% { opacity:1; }
+    45% { opacity:1;}
+    55% { opacity:0;}
+    100% { opacity:0;}
+}
+
+@-o-keyframes fade-in {
+    0% { opacity:1; }
+    45% { opacity:1;}
+    55% { opacity:0;}
+    100% { opacity:0;}
+}
+
+@keyframes fade-out {
+    0% { opacity:0; }
+    45% { opacity:0;}
+    55% { opacity:1;}
+    100% { opacity:1;}
+}
+
+@-moz-keyframes fade-out {
+    0% { opacity:0; }
+    45% { opacity:0;}
+    55% { opacity:1;}
+    100% { opacity:1;}
+}
+
+@-webkit-keyframes fade-out {
+    0% { opacity:0; }
+    45% { opacity:0;}
+    55% { opacity:1;}
+    100% { opacity:1;}
+}
+
+@-o-keyframes fade-out {
+    0% { opacity:0; }
+    45% { opacity:0;}
+    55% { opacity:1;}
+    100% { opacity:1;}
+}
+
+
+h1{
+    
+    animation: 3s h1-left-10 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h1-left-10 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h1-left-10 ease 2s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h1-left-10 ease 2s forwards, 3s fade-in linear 10s forwards;
+}
+
+
+@keyframes h1-left-10 {
+    from {left: -500px; opacity: 0;}
+    to {left: 10px; opacity: 1;}
+}
+@-webkit-keyframes h1-left-10 {
+    from {left: -500px; opacity: 0;}
+    to {left: 10px; opacity: 1;}
+}
+@-moz-keyframes h1-left-10 {
+    from {left: -500px; opacity: 0;}
+    to {left: 10px; opacity: 1;}
+}
+@-o-keyframes h1-left-10 {
+    from {left: -500px; opacity: 0;}
+    to {left: 10px; opacity: 1;}
+}
+
+
+h2{
+
+    animation: 3s h2-left-12 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -webkit-animation: 3s h2-left-12 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -moz-animation: 3s h2-left-12 ease 4s forwards, 3s fade-in linear 10s forwards;
+    -o-animation: 3s h2-left-12 ease 4s forwards, 3s fade-in linear 10s forwards;
+}
+
+
+@keyframes h2-left-12 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+@-webkit-keyframes h2-left-12 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+@-moz-keyframes h2-left-12 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+@-o-keyframes h2-left-12 {
+    from {left: -12px; opacity: 0;}
+    to {left: 12px; opacity: 1;}
+}
+
+
+@keyframes h2-left-18 {
+    from {left: -18px; opacity: 0;}
+    to {left: 18px; opacity: 1;}
+}
+@-webkit-keyframes h2-left-128 {
+    from {left: -18px; opacity: 0;}
+    to {left: 18px; opacity: 1;}
+}
+@-moz-keyframes h2-left-18 {
+    from {left: -18px; opacity: 0;}
+    to {left: 18px; opacity: 1;}
+}
+@-o-keyframes h2-left-18 {
+    from {left: -18px; opacity: 0;}
+    to {left: 18px; opacity: 1;}
+}
+
+
+@keyframes h2-728 {
+    from {left: -230px; opacity: 0;}
+    to {left: 230px; opacity: 1;}
+}
+@-webkit-keyframes h2-728 {
+    from {left: -230px; opacity: 0;}
+    to {left: 230px; opacity: 1;}
+}
+@-moz-keyframes h2-728{
+    from {left: -230px; opacity: 0;}
+    to {left: 230px; opacity: 1;}
+}
+@-o-keyframes h2-728 {
+    from {left: -230px; opacity: 0;}
+    to {left: 230px; opacity: 1;}
+}
+
+
+@keyframes h2-160 {
+    from {left: -22px; opacity: 0;}
+    to {left: 22px; opacity: 1;}
+}
+@-webkit-keyframes h2-160 {
+    from {left: -22px; opacity: 0;}
+    to {left: 22px; opacity: 1;}
+}
+@-moz-keyframes h2-160{
+    from {left: -22px; opacity: 0;}
+    to {left: 22px; opacity: 1;}
+}
+@-o-keyframes h2-160 {
+    from {left: -22px; opacity: 0;}
+    to {left: 22px; opacity: 1;}
+}
+
+
+@keyframes h2-240 {
+    from {left: -15px; opacity: 0;}
+    to {left: 0; opacity: 1;}
+}
+@-webkit-keyframes h2-240 {
+    from {left: -15px; opacity: 0;}
+    to {left: 0; opacity: 1;}
+}
+@-moz-keyframes h2-240{
+    from {left: -15px; opacity: 0;}
+    to {left: 0; opacity: 1;}
+}
+@-o-keyframes h2-240 {
+    from {left: -15px; opacity: 0;}
+    to {left: 0; opacity: 1;}
+}
+
+h4{
+    animation: 3s h4-left ease 12s forwards;
+    -webkit-animation: 3s h4-left ease 12s forwards;
+    -moz-animation: 3s h4-left ease 12s forwards;
+    -o-animation: 3s h4-left ease 12s forwards; 
+}
+
+
+
+@keyframes h4-left {
+    from {left: -15px; opacity: 0;}
+    to {left: 15px; opacity: 1;}
+}
+@-webkit-keyframes h4-left {
+    from {left: -15px; opacity: 0;}
+    to {left: 15px; opacity: 1;}
+}
+@-moz-keyframes h4-left{
+    from {left: -15px; opacity: 0;}
+    to {left: 15px; opacity: 1;}
+}
+@-o-keyframes h4-left {
+    from {left: -15px; opacity: 0;}
+    to {left: 15px; opacity: 1;}
+}
+
+
+h6{
+    animation: 3s h6-bottom ease 16s forwards;
+    -webkit-animation: 3s h6-bottom ease 16s forwards;
+    -moz-animation: 3s h6-bottom ease 16s forwards;
+    -o-animation: 3s h6-bottom ease 16s forwards; 
+}
+
+@keyframes h6-bottom {
+    from {bottom: -6px; opacity: 0;}
+    to {bottom: 6px; opacity: 1;}
+}
+@-webkit-keyframes h6-bottom {
+    from {bottom: -6px; opacity: 0;}
+    to {bottom: 6px; opacity: 1;}
+}
+@-moz-keyframes h6-bottom{
+    from {bottom: -6px; opacity: 0;}
+    to {bottom: 6px; opacity: 1;}
+}
+@-o-keyframes h6-bottom {
+    from {bottom: -6px; opacity: 0;}
+    to {bottom: 6px; opacity: 1;}
+}
+
+
+@-webkit-keyframes scale2 {
+    0%{ -webkit-transform:  scale(1);}
+    25%{ -webkit-transform:  scale(0.8);}
+    50%{ -webkit-transform:  scale(0.8);}
+    75%{ -webkit-transform:  scale(0.8);}   
+    100%{ -webkit-transform:  scale(1);}
+
+}
+@-o-keyframes scale2 {
+    0%{ -webkit-transform:  scale(1);}
+    25%{ -webkit-transform:  scale(0.8);}
+    50%{ -webkit-transform:  scale(0.8);}
+    75%{ -webkit-transform:  scale(0.8);}   
+    100%{ -webkit-transform:  scale(1);}
+}
+@-moz-keyframes scale2 {
+    0%{ -webkit-transform:  scale(1);}
+    25%{ -webkit-transform:  scale(0.8);}
+    50%{ -webkit-transform:  scale(0.8);}
+    75%{ -webkit-transform:  scale(0.8);}   
+    100%{ -webkit-transform:  scale(1);}
+}
+@keyframes scale2 {
+    0%{ -webkit-transform:  scale(1);}
+    25%{ -webkit-transform:  scale(0.8);}
+    50%{ -webkit-transform:  scale(0.8);}
+    75%{ -webkit-transform:  scale(0.8);}   
+    100%{ -webkit-transform:  scale(1);}
+}
